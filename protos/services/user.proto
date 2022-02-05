@@ -1,9 +1,20 @@
-package user;
-
 syntax = "proto3";
 
-import "messages/user.proto"
+package user;
+
+option go_package = "user/";
 
 service UsersProviderService {
-    rpc GetAllUsers() return (Users);
+    rpc GetAllUsers(GetAll) returns (Users);
+}
+
+message GetAll {}
+
+message Users {
+    repeated UserData user = 1;
+}
+
+message UserData {
+    string id = 1;
+    string name = 2;
 }

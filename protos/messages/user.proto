@@ -1,6 +1,8 @@
-package users;
-
 syntax = "proto3";
+
+package user;
+
+message GetAll {}
 
 message Users {
     repeated UserData user = 1;
