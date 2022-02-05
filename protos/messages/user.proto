@@ -1,5 +1,8 @@
 syntax = "proto3";
 
+message Users {
+    repeated UserData user = 1;
+}
 
 message UserData {
     string id = 1;
