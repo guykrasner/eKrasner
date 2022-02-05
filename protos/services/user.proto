@@ -1,0 +1,9 @@
+package user;
+
+syntax = "proto3";
+
+import "messages/user.proto"
+
+service UsersProviderService {
+    rpc GetAllUsers() return (Users);
+}
