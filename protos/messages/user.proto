@@ -1,3 +1,5 @@
+package users;
+
 syntax = "proto3";
 
 message Users {
