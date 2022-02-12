@@ -1,0 +1,28 @@
+
+h1 {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.s1 {
+    background: url('../images/homepage.jpg');
+    background-size: cover;
+}
+
+.s2 {
+    background: url('../images/crafts.jpg');
+    background-size: cover;
+
+    h1 {
+        color: white;
+    }
+}
+
+.s3 {
+    background: url('../images/contact-us-background.jpg');
+    background-size: cover;
+
+    h1 {
+        color: white;
+    }
+}
